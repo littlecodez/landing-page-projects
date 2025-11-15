@@ -7,7 +7,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
   flex-direction: column;
   box-sizing: border-box;
 }
@@ -29,7 +28,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(images/bg-header-desktop.png);
+  background-image: url(images/images/bg-header-desktop.png);
 }
 .svg .logo .svl-text,
 .track-text {
@@ -109,22 +108,6 @@
   text-align: center;
   font-size: 18px;
 }
-/* .charge {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 18px;
-}
-
-.one-text {
-  text-align: center;
-  font-weight: 18px;
-  font-size: 18px;
-} */
-
-/*  */
 
 .all-one {
   display: flex;
@@ -165,4 +148,42 @@
 }
 .ending {
   display: flex;
+  background-color: gray;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+.item-1 img {
+  height: 50px;
+  width: auto;
+}
+.item-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.ending div {
+  display: flex;
+  gap: 15px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
 }
